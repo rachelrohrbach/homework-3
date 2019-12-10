@@ -16,13 +16,14 @@ main {
     font-weight: bold;
 }
 
-.block {
+.content {
 	background-color: #fff;
 	padding: 30px;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
+    width: 100%;
 }
 
-.block-header {
+h2 {
     text-align: center;
 }
 
@@ -35,10 +36,10 @@ main {
 #msg {
    border-style: dashed;
    text-align: center;
+   width: 100%;
 }
 
-
-.btn-danger { 
+button { 
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
@@ -47,19 +48,6 @@ main {
     border-radius: 20px;
 }
 
-.btn-secondary {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: gray;
-    border: 0;
-    border-radius: 20px;
-}
-
-.btn-danger:hover {
-    opacity: .7;
-}
-
-.btn-secondary:hover {
+button:hover {
     opacity: .7;
 }
