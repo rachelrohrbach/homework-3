@@ -23,7 +23,7 @@ This project is created with:
 
 
 # Credits
-I consulted Bootstrap 4 (https://getbootstrap.com/) and W3Schools (https://www.w3schools.com/bootstrap4/default.asp) extensively in creating my project. Some other resources that I used include: Stack Overflow (#https://stackoverflow.com/) and the GitLab repository for my course, specifically referencing in-class activities. 
+I consulted W3Schools (https://www.w3schools.com/js/default.asp), MDN Web Docs (https://developer.mozilla.org/en-US/docs/Web/JavaScript) and Bootstrap 4 (https://getbootstrap.com/) extensively in creating my project. Some other resources that I used include: Stack Overflow (#https://stackoverflow.com/) and the GitLab repository for my course, specifically referencing the in-class activities. 
 
 ## License
 MIT License
