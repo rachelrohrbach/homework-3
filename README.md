@@ -3,7 +3,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Screenshot] (#screenshot)
+* [Screenshot](#screenshot)
 * [Credits](#credits)
 * [License](#license)
 
@@ -18,7 +18,8 @@ This project is created with:
 * JavaScript
 
 ## Screenshot
-![project screenshot](homework\homework-3\assets\generate-password-screenshot.png)
+![project screenshot](assets/generate-password-screenshot.png)
+![link to deployed github pages](https://rachelrohrbach.github.io/homework-3/)
 
 
 # Credits
