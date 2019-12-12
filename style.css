@@ -1,0 +1,53 @@
+body {
+    background-color: whitesmoke;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+main {
+	margin: 80px 0;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.content {
+	background-color: #fff;
+	padding: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 8px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#msg {
+   border-style: dashed;
+   text-align: center;
+   width: 100%;
+}
+
+button { 
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: darkred;
+    border: 0;
+    border-radius: 20px;
+}
+
+button:hover {
+    opacity: .7;
+}
