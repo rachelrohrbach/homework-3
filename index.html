@@ -16,11 +16,11 @@
 
 <body>
 
-        <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                  <h1 class="display-4 text-center font-weight-bold">Password Generator</h1>
-                </div>
-              </div>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4 text-center font-weight-bold">Password Generator</h1>
+        </div>
+    </div>
 
 
     <main class="container">
@@ -30,14 +30,15 @@
                     <h2>Generate a Password</h2>
                     <br />
                     <hr />
-                    <textarea id="msg" class="form-control" maxlength="128" placeholder="Your Secure Password"></textarea>
+                    <textarea id="msg" class="form-control" rows="6"
+                        placeholder="Your Secure Password"></textarea>
                     <br />
                     <hr />
                     <button onclick="generatePassword()">Generate Password</button>
                     <button onclick="copyToClipboard()">Copy to Clipboard</button>
                 </div>
             </div>
-      </section>
+        </section>
     </main>
 
 
