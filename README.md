@@ -19,7 +19,7 @@ This project is created with:
 
 ## Screenshot
 ![project screenshot](assets/generate-password-screenshot.png)
-![link to my deployed github page](https://rachelrohrbach.github.io/homework-3/)
+Link to my deployed github page: https://rachelrohrbach.github.io/homework-3/
 
 
 # Credits
