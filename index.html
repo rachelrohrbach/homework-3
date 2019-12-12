@@ -9,23 +9,23 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-light">
-        <span class="navbar-brand mb-0 text-center mx-auto">
-            <h1>Password Generator</h1>
-        </span>
-    </nav>
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4 text-center font-weight-bold">Password Generator</h1>
+                </div>
+              </div>
 
 
     <main class="container">
         <section class="row">
-            <div class="col-lg-8 col-md-12 col-sm-12 mx-auto">
+            <div class="col-lg-8 col-md-12 col-sm-12 mx-auto text-center">
                 <div class="content">
                     <h2>Generate a Password</h2>
                     <br />
@@ -33,8 +33,8 @@
                     <textarea id="msg" class="form-control" maxlength="128" placeholder="Your Secure Password"></textarea>
                     <br />
                     <hr />
-                    <button onclick="">Generate Password</button>
-                    <button onclick="">Copy to Clipboard</button>
+                    <button onclick="generatePassword()">Generate Password</button>
+                    <button onclick="copyToClipboard()">Copy to Clipboard</button>
                 </div>
             </div>
       </section>
@@ -50,7 +50,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <script src="assets/script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
