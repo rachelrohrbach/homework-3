@@ -55,11 +55,11 @@ function generatePassword () {
 }
 
 function copyToClipboard() {
-    var passowrdText = document.getElementById('msg');
-    passowrdText.select();
-    passowrdText.setSelectionRange(0, 99999)
+    var passwordText = document.getElementById('msg');
+    passwordText.select();
+    passwordText.setSelectionRange(0, 99999)
     document.execCommand("copy");
-    alert('Your password ' + passowrdText.value + 'has been copied to the clipboard!');
+    alert('Your password ' + passwordText.value + 'has been copied to the clipboard!');
 }
 
 
