@@ -1,3 +1,6 @@
+var generateButton = document.querySelector("#generate");
+var copyButton = document.querySelector("#copy")
+
 function generatePassword () {
     var specialCharacters = "!@#$%^&*()";
     var numbersCharacters = "0123456789";
@@ -62,4 +65,5 @@ function copyToClipboard() {
     alert('Your password ' + passwordText.value + 'has been copied to the clipboard!');
 }
 
-
+generateButton.addEventListener('click', generatePassword);
+copyButton.addEventListener('click', copyToClipboard);
